@@ -8,18 +8,6 @@ from .dep_label import DepLabelDataset
 
 
 def generate_batch(batch):
-    r"""
-    Since the text entries have different lengths, a custom function
-    generate_batch() is used to generate data batches and offsets,
-    which are compatible with EmbeddingBag. The function is passed
-    to 'collate_fn' in torch.utils.data.DataLoader. The input to
-    'collate_fn' is a list of tensors with the size of batch_size,
-    and the 'collate_fn' function packs them into a mini-batch.[len(entry[0][0]) for entry in batch]
-    Pay attention here and make sure that 'collate_fn' is declared
-    as a top level def. This ensures that the function is available
-    in each worker.
-    """
-
     x = torch.cat([item[0].unsqueeze(0) for item in batch], dim=0)
     y = torch.cat([item[1].unsqueeze(0) for item in batch], dim=0)
 
