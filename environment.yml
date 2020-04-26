@@ -1,0 +1,18 @@
+name: probe-as-mi
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.7
+  - numpy
+  - pandas
+  - scikit-learn
+  - tqdm
+  - matplotlib
+  - pylint
+  - pip
+  - pip:
+    - seaborn
+    - ipdb
+    - conllu
