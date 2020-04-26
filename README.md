@@ -1,4 +1,4 @@
-# probing-mutual-info
+# info-theoretic-probing
 
 This repository contains code accompanying the paper: [Information-Theoretic Probing for Linguistic Structure (Pimentel et al., ACL 2020)](https://arxiv.org/abs/2004.03061).
 It is a study of probing using information theoretic concepts.
