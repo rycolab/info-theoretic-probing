@@ -46,7 +46,7 @@ If this code or the paper were usefull to you, consider citing it:
     Zmigrod, Ran and
     Williams, Adina and
     Cotterell, Ryan",
-    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
     year = "2020",
     publisher = "Association for Computational Linguistics",
     url = "https://arxiv.org/abs/2004.03061",
