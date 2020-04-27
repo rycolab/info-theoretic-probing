@@ -38,11 +38,11 @@ If this code or the paper were usefull to you, consider citing it:
 
 
 ```bash
-@inproceedings{pimentel-etal-2019-meaning,
+@inproceedings{pimentel-etal-2020-information,
     title = "Information-Theoretic Probing for Linguistic Structure",
     author = "Pimentel, Tiago and
     Valvoda, Josef and
-    Maudslay, Rowan Hall and
+    Hall Maudslay, Rowan and
     Zmigrod, Ran and
     Williams, Adina and
     Cotterell, Ryan",
